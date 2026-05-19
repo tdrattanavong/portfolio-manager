@@ -1,4 +1,4 @@
-package com.pluralsight.interfaces.interface;
+package com.pluralsight.interfaces;
 
 public interface Valuable {
     double getValue();
