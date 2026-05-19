@@ -37,16 +37,17 @@ public class BankAccount implements Valuable {
         this.balance = balance;
     }
 
-    public void deposit(double amount){
+    public void deposit(double amount) {
         this.balance += amount;
-}
+    }
 
-public void  withdraw(double amount){
+    public void withdraw(double amount) {
         this.balance -= amount;
-}
+    }
 
-@Override
-public double getValue(){
+    @Override
+    public double getValue() {
         return balance;
+    }
 }
 
